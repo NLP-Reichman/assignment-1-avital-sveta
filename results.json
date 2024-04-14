@@ -9,9 +9,10 @@
     "spanish_3_gram_length": 8469
   },
   "test_eval": {
-    "english_on_english": 31.62,
-    "english_on_french": 66.85,
-    "english_on_spanish": 67.58
+    "en_en": 31.622009327855498,
+    "en_fr": 66.84905600883658,
+    "en_tl": 90.28005577872524,
+    "en_nl": 77.50556072223915
   },
   "test_match": {
     "df_shape": [
@@ -22,13 +23,5 @@
     "tl_tl_1": 56.49412583095109,
     "tl_nl_4": 358.557908627986
   },
-  "test_generate": {
-    "english_2_gram": "I amell1Gige omyo & he't",
-    "english_3_gram": "I amebompirs ans appree ",
-    "english_4_gram": "I Lover. Zo Are froming #M",
-    "spanish_2_gram": "Soy ' Dusos qups  en ce",
-    "spanish_3_gram": "Soy ensanta oto el 200 ",
-    "french_2_gram": "Je suis jeitpu s a male s:/",
-    "french_3_gram": "Je suistreil Her lon in vs "
-  }
+  "test_generate": "ValueError(\"'a' cannot be empty unless no samples are taken\")"
 }
